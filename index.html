@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>30/11/2565</Title>
+</head>
+
+<body>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr>
+
+    <p>
+        <b>This</b> <i>paragraphcontains</i> <br><br />
+        <u>a lot of spacesin the source</u>
+        code,but the
+        browser ignores it.
+    </p>
+
+    <hr>
+
+    <p><b>This</b> <br>
+        <!--ตัวหนา-->
+        <i>paragraph</i> <br>
+        contain<sub>s</sub> <br>
+        a lot of line <sup>s</sup> <br>
+        in the source code, <br />
+        <hr />
+        but the browser ignores it.
+    </p>
+
+    <hr>
+    <!-- จุดหน้าข้อความ -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <hr>
+    <!--1 2 3-->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <hr>
+    <!--หัวข้อแทป-->
+    <dl>
+        <b>
+            <dt>Coffee</dt>
+        </b>
+        <dd>- black hot drink</dd>
+        <b>
+            <dt>Milk</dt>
+        </b>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <hr>
+
+    <a href="https://www.google.com/" target="_blank">Visit Google</a> <br>
+    <!--เข้าลิ้งในหน้าใหม่-->
+    <a href="https://www.google.com/" target="_self">Visit Google</a>
+    <!--เข้าลิ้งในหน้าเดิม-->
+
+    <hr>
+
+    <figure>
+        <img src="2022-06-27 (1).png" alt="Girl in a jacket" style="width:500px;height:600px;"
+            title="Girl in a jacket" />
+        <br />
+        <figcaption>Girl in a jacket</figcaption>
+    </figure>
+
+    <hr>
+
+    <table border="2" width="100%">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="2" width="100%">
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="2" width="100%">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr><!-- additional rows as above -->
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <form action="#"> 
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <input type="password">
+        <br>
+        <textarea rows="10"></textarea>
+        <br>
+
+        <select>
+            <option selected disabled>เลือก</option>
+            <option value="1">หมา</option>
+            <option value="2">แมว</option>
+            <option value="3">ไก่</option>
+        </select>
+        <br>
+            <input type="da">
+        <br>
+
+        <input type="reset">
+        <input type="submit">
+
+        <button type="reset">อะรีๆๆ</button>
+        <button type="submit">กดสิ</button>
+
+        <br>
+        <input type="checkbox">
+
+    </form>
+
+    <br><br>
+    <hr>
+    <br>
+    <h1>Workshop #HTML-FORM</h1>
+    
+    <table>
+        <form>  
+            <tr width="120" align="left">
+                <th><label for="fname">ชื่อ</label></th>
+                <th><input type="text" id="fname" name="fname"></th>
+            </tr>
+            <tr width="100" align="left">
+                <th><label for="lname">สกุล</label></th>
+                <th><input type="text" id="lname" name="lname"></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="data">วัน/เดือน/ปีเกิด</label></th>
+                <th><input type="date" id="data" name="data"></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="age">อายุ</label></th>
+                <th><input type="number" id="age" name="age"></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="sex">เพศ</label></th>
+                <th><input type="radio" id="man" name="sex_language" value="man">
+                    <label for="man">ชาย</label>
+                    <input type="radio" id="woman" name="sex_language" value="woman">
+                    <label for="woman">หญิง</label></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="picture">รูป</label></th>
+                <th> <input type="file" id="myfile" name="myfile"></th>
+            </tr>
+            <tr>    
+                <th width="120" align="left">ที่อยู่</th>
+                <th align="left"><textarea rows="5" cols="25"></textarea></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="picture">สีที่ชอบ</label></th>
+                <th> <select name="color" id="color">
+                    <option value="red">สีแดง</option>
+                    <option value="greem">สีเขียว</option>
+                    <option value="black">สีดำ</option>
+                    <option value="while">สีขาว</option>
+                    <option value="blue">สีน้ำเงิน</option>
+                  </select></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="music">เพลงที่ชอบ</label></th>
+                <th><input type="radio" id="m1" name="m" value="m1">
+                    <label for="man">เพื่อชีวิต</label>
+                    <input type="radio" id="m2" name="m" value="m2">
+                    <label for="woman">ลูกทุ่ง</label>
+                    <input type="radio" id="m2" name="m" value="m3">
+                    <label for="woman">อื่นๆ</label></th>
+            </tr>   
+    
+    </table>
+    <br>
+    <input type="checkbox" id="yes" name="yes" value="yes">  
+    <label for="vehicle1"> ยินยอมให้เก็บข้อมูล</label><br><br>
+    <button type="reset">Reset</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="button" value="Submit"><br>
+    </form>
+</body>
+
+</html>
